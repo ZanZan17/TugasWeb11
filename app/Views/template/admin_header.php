@@ -13,9 +13,9 @@
       <h1>Admin Portal Berita</h1>
     </header>
     <nav>
-      <a href="<?= base_url('admin/dashboard'); ?>" class="">Dashboard</a>
-      <a href="<?= base_url('admin/artikel'); ?>" class="<?= $page === 'admin/artikel' ? 'active' : '' ?>">Artikel</a>
-      <a href="<?= base_url('admin/artikel/add'); ?>" class="<?= $page === 'admin/artikel/add' ? 'active' : '' ?>">Tambah Artikel</a>
+      <a href="<?= base_url('admin/dashboard'); ?>">Dashboard</a>
+      <a href="<?= base_url('admin/artikel'); ?>" class="active">Artikel</a>
+      <a href="<?= base_url('admin/artikel/add'); ?>">Tambah Artikel</a>
     </nav>
     <section id="wrapper">
       <section id="main">

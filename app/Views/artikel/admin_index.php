@@ -1,6 +1,5 @@
 <?= $this->include('template/admin_header'); ?>
 <table class="table">
-<<<<<<< HEAD
   <thead>
     <tr>
       <th>ID</th>
@@ -40,7 +39,6 @@
       <th>Aksi</th>
     </tr>
   </tfoot>
-=======
     <thead>
         <tr>
             <th>ID</th>
@@ -80,6 +78,6 @@
             <th>AKsi</th>
         </tr>
     </tfoot>
->>>>>>> 89bd271c0e591dc712b7e0607ce67a2d60b75ee8
 </table>
 <?= $this->include('template/admin_footer'); ?>
+<?= $pager->links(); ?>
